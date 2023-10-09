@@ -74,9 +74,8 @@ def sample_pfs(typecount, values, it=1000):
 
 def calc_hazard_ratio(df, length, n):
     # Process df for analysis
-    new_df = df
     subset_col = [0] * length + [1] * n
-    new_df = new_df.append(new_df.sample(n))
+    new_df = pd.concat([df, pd.DataFrame(df.sample(n))])
     new_df["Subset"] = subset_col
     new_df = new_df[["Months", "Censoring value", "Subset"]]
     

@@ -4,7 +4,7 @@ This repository contains the code and data for the following preprint:
 
 Zhou I, Plana D, Palmer AC. *Tumor-Specific Activity of Precision Medicines in the NCI-MATCH Trial.* MedRxiv; 2023. doi:10.1101/2023.03.30.23287951
 
-Permutation tests were used to perform a subgroup analysis of the NCI-MATCH trial (Molecular Analysis for Therapy Choice)[!https://www.cancer.gov/about-cancer/treatment/nci-supported/nci-match].
+Permutation tests were used to perform a subgroup analysis of [the NCI-MATCH trial (Molecular Analysis for Therapy Choice](https://www.cancer.gov/about-cancer/treatment/nci-supported/nci-match).
 
 ## Abstract
 ### Background
